@@ -2,6 +2,32 @@ Hookah [![Build Status](https://travis-ci.org/khoiln/Hookah.svg?branch=master)](
 ===========
 Hookah is a functional library for Swift. It's inspired by Lo-Dash project.
 
+# Installation #
+
+### CocoaPods
+
+[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
+
+```bash
+$ gem install cocoapods
+```
+
+To integrate Hookah into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+pod 'Hookah', '~> 0.0.1'
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
+
 # API Documentation #
 
 ## CollectionType ##
