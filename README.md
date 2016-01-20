@@ -4,7 +4,7 @@ Hookah is a functional library for Swift. It's inspired by Lo-Dash project.
 
 # Installation #
 
-### CocoaPods
+## CocoaPods
 
 [CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
 
