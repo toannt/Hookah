@@ -449,3 +449,6 @@ Returns true if any element passes the predicate check, else false.
 Hookah.some([11, 10, 22]){ $0 % 2 != 0 }
 // -> true
 ```
+
+# Contributing #
+All contributions Hookah are extremely welcome. Checkout [CONTRIBUTING.md](https://github.com/khoiln/Hookah/blob/master/CONTRIBUTING.md)
