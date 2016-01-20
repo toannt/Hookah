@@ -383,3 +383,25 @@ Hookah.size([1,2,3,4])
 Hookah.size(["khoi":1,"toan":2])
 // -> 2
 ```
+
+### `Hookah.some`
+```swift
+Hookah.some<T where T:CollectionType>(collection: T,@noescape predicate: T.Generator.Element throws -> Bool) rethrows -> Bool
+```
+
+Checks if predicate returns true for ANY element of collection. Iteration is stopped once predicate returns true.
+
+#### Arguments ####
+
+- collection: The collection to iterate over.
+- predicate: The function invoked per iteration.
+
+#### Return ####
+
+Returns true if any element passes the predicate check, else false.
+ 
+#### Example ####
+```swift
+Hookah.some([11, 10, 22]){ $0 % 2 != 0 }
+// -> true
+```
