@@ -1,4 +1,4 @@
-Hookah [![Build Status](https://travis-ci.org/khoiln/Hookah.svg?branch=master)](https://travis-ci.org/khoiln/Hookah) ![CocoaPods](https://img.shields.io/cocoapods/v/Hookah.svg) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)[![Platform](https://img.shields.io/cocoapods/p/Hookah.svg?style=flat)](http://cocoadocs.org/docsets/Hookah)
+Hookah [![Build Status](https://travis-ci.org/khoiln/Hookah.svg?branch=master)](https://travis-ci.org/khoiln/Hookah) ![CocoaPods](https://img.shields.io/cocoapods/v/Hookah.svg) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![Platform](https://img.shields.io/cocoapods/p/Hookah.svg?style=flat)](http://cocoadocs.org/docsets/Hookah)
 ===========
 Hookah is a functional library for Swift. It's inspired by Lo-Dash project.
 
