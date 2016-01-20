@@ -474,5 +474,26 @@ Hookah.chunk([1,2,3,4,5],size: 2)
 // -> [[1, 2], [3, 4], [5]]
 ```
 
+### `Hookah.compact`
+```swift
+Hookah.compact<T>(array: [T?]) -> [T]
+```
+
+Create an array with all nil values removed.
+
+#### Arguments ####
+
+- array: The array to compact.
+
+#### Return ####
+
+The new filtered array.
+
+#### Example ####
+```swift
+Hookah.compact([2,3,4,nil,6,7])
+// -> [2,3,4,6,7]
+```
+
 # Contributing #
 All contributions Hookah are extremely welcome. Checkout [CONTRIBUTING.md](https://github.com/khoiln/Hookah/blob/master/CONTRIBUTING.md)
