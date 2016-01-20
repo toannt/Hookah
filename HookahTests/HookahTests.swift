@@ -45,8 +45,7 @@ class HookahTests: XCTestCase {
             XCTAssertEqual(result, 6)
         }
         XCTAssertNil(Hookah.last([Int]()))
-        
-      
+            
     }
     
     func testInclude(){
@@ -207,7 +206,7 @@ class HookahTests: XCTestCase {
         let arr = [1,2,3,4]
         XCTAssertEqual(Hookah.size(arr), 4)
         XCTAssertEqual(Hookah.size([] as [NSObject]), 0)
-
+        XCTAssertEqual(Hookah.size(["khoi":1,"toan":2]), 2, "Should return size of array as well")
     }
     
     func testShuffle(){
