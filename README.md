@@ -495,5 +495,49 @@ Hookah.compact([2,3,4,nil,6,7])
 // -> [2,3,4,6,7]
 ```
 
+### `Hookah.concat` values
+```swift
+Hookah.concat<T>(array: [T], values: T...) -> [T]
+```
+
+Creates a new array concatenating additional values.
+
+#### Arguments ####
+
+- array: The array to concatenate.
+- values: The values to concatenate.
+
+#### Return ####
+
+The new concatenated array.
+
+#### Example ####
+```swift
+Hookah.concat([1,2,3], values: 2, 3, 4)
+// -> [1,2,3,2,3,4]
+```
+
+### `Hookah.concat` arrays
+```swift
+Hookah.concat<T>(array: [T], arrays: [T]...) -> [T]
+```
+
+Creates a new array concatenating additional arrays.
+
+#### Arguments ####
+
+- array: The array to concatenate.
+- arrays: The arrays to concatenate.
+
+#### Return ####
+
+The new concatenated array.
+
+#### Example ####
+```swift
+Hookah.concat(array, arrays: [1,2],[3,4],[0])
+// -> [1,1,2,3,4,0]
+```
+
 # Contributing #
 All contributions Hookah are extremely welcome. Checkout [CONTRIBUTING.md](https://github.com/khoiln/Hookah/blob/master/CONTRIBUTING.md)
