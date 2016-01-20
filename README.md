@@ -291,3 +291,23 @@ let scores = ["khoi" : 82, "quan" : 40, "toan": 90]
 Hookah.reject(scores) {$0.1 < 50}
 // -> [("khoi", 82), ("toan", 90)]
 ```
+
+### `Hookah.sample`
+```swift
+Hookah.sample<T where T:CollectionType, T.Index == Int>(collection: T) -> T.Generator.Element
+```
+
+Gets a random element from collection.
+#### Arguments ####
+
+- collection: The collection to sample
+
+#### Return ####
+
+Return the random element.
+ 
+#### Example ####
+```swift
+Hookah.random([1,2,3,4])
+// -> 2
+```
