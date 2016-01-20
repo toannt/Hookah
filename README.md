@@ -318,6 +318,7 @@ Hookah.sampleSize<T where T:CollectionType, T.Index == Int>(collection: T, n: In
 ```
 
 Gets n random elements from collection.
+
 Using [Fisher-Yates shuffle](http://en.wikipedia.org/wiki/Fisher–Yates_shuffle).
 
 #### Arguments ####
@@ -333,4 +334,27 @@ Array of random elements
 ```swift
 Hookah.sampleSize([1,2,3,4],n: 2)
 // -> [2,4]
+```
+
+### `Hookah.shuffle`
+```swift
+Hookah.shuffle<T where T:CollectionType, T.Index == Int>(collection: T) -> [T.Generator.Element]
+```
+
+Creates an array of shuffled values.
+
+Using [Fisher-Yates shuffle](http://en.wikipedia.org/wiki/Fisher–Yates_shuffle).
+
+#### Arguments ####
+
+- collection: The collection to shuffle
+
+#### Return ####
+
+Returns the shuffled array.
+ 
+#### Example ####
+```swift
+Hookah.shuffle([1,2,3,4])
+// -> [2,4,1,3]
 ```
