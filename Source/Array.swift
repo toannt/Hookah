@@ -90,7 +90,7 @@ extension Hookah{
      Creates a new array concatenating additional arrays.
      
      - parameter array:  The array to concatenate.
-     - parameter values: The arrays to concatenate.
+     - parameter arrays: The arrays to concatenate.
      
      - returns: The new concatenated array.
      */
