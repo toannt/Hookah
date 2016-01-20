@@ -353,12 +353,22 @@ public class Hookah{
     /**
      Return the size of collection.
      
+     Complexity: O(1) in most cases. O(n) in worst cases.
+     
      - parameter collection: The collection.
      
      - returns: The collection size.
      */
-    public class func size<T where T:CollectionType, T.Index == Int>(collection: T) -> Int{
-        return collection.count
+    public class func size<T where T:CollectionType>(collection: T) -> Int{
+        if let count = collection.count as? Int{
+            return count
+        } else {
+            var size = 0
+            for _ in collection{
+                ++size
+            }
+            return size
+        }
     }
     
     
