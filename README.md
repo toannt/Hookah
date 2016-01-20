@@ -308,6 +308,29 @@ Return the random element.
  
 #### Example ####
 ```swift
-Hookah.random([1,2,3,4])
+Hookah.sample([1,2,3,4])
 // -> 2
+```
+
+### `Hookah.sampleSize`
+```swift
+Hookah.sampleSize<T where T:CollectionType, T.Index == Int>(collection: T, n: Int) -> [T.Generator.Element]
+```
+
+Gets n random elements from collection.
+Using [Fisher-Yates shuffle](http://en.wikipedia.org/wiki/Fisher–Yates_shuffle).
+
+#### Arguments ####
+
+- collection: The collection to sample
+- n:          The number of elements to sample. 0 by default.
+
+#### Return ####
+
+Array of random elements
+ 
+#### Example ####
+```swift
+Hookah.sampleSize([1,2,3,4],n: 2)
+// -> [2,4]
 ```
