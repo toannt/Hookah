@@ -450,5 +450,29 @@ Hookah.some([11, 10, 22]){ $0 % 2 != 0 }
 // -> true
 ```
 
+## Array ##
+
+### `Hookah.chunk`
+```swift
+Hookah.chunk<T>(array: [T], size: Int = 0) -> [[T]]
+```
+
+Create an array of elements split in to groups by the length of size. If array can't be split evenly, the final chunk contains all the remain elements.
+
+#### Arguments ####
+
+- array: The array to process.
+- size: The length of each chunk. 0 by default.
+
+#### Return ####
+
+The new array contains chunks
+ 
+#### Example ####
+```swift
+Hookah.chunk([1,2,3,4,5],size: 2)
+// -> [[1, 2], [3, 4], [5]]
+```
+
 # Contributing #
 All contributions Hookah are extremely welcome. Checkout [CONTRIBUTING.md](https://github.com/khoiln/Hookah/blob/master/CONTRIBUTING.md)
