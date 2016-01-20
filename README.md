@@ -358,3 +358,28 @@ Returns the shuffled array.
 Hookah.shuffle([1,2,3,4])
 // -> [2,4,1,3]
 ```
+
+### `Hookah.size`
+```swift
+Hookah.size<T where T:CollectionType>(collection: T) -> Int
+```
+
+Return the size of collection.
+
+Complexity: O(1) in most cases. O(n) in worst cases.
+
+#### Arguments ####
+
+- collection: The collection.
+
+#### Return ####
+
+The collection size.
+ 
+#### Example ####
+```swift
+Hookah.size([1,2,3,4])
+// -> 4
+Hookah.size(["khoi":1,"toan":2])
+// -> 2
+```
