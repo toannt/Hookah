@@ -17,6 +17,14 @@
 		19E07A161C4F7DA6008F5401 /* Hookah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E07A0E1C4F7DA6008F5401 /* Hookah.swift */; };
 		19E07A171C4F7DA6008F5401 /* Hookah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E07A0E1C4F7DA6008F5401 /* Hookah.swift */; };
 		19E07A181C4F7DA6008F5401 /* Hookah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E07A0E1C4F7DA6008F5401 /* Hookah.swift */; };
+		19E07A251C4F865A008F5401 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E07A241C4F8659008F5401 /* Array.swift */; };
+		19E07A261C4F865A008F5401 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E07A241C4F8659008F5401 /* Array.swift */; };
+		19E07A271C4F865A008F5401 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E07A241C4F8659008F5401 /* Array.swift */; };
+		19E07A281C4F865A008F5401 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E07A241C4F8659008F5401 /* Array.swift */; };
+		19E07A2A1C4F867F008F5401 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E07A291C4F867F008F5401 /* String.swift */; };
+		19E07A2B1C4F867F008F5401 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E07A291C4F867F008F5401 /* String.swift */; };
+		19E07A2C1C4F867F008F5401 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E07A291C4F867F008F5401 /* String.swift */; };
+		19E07A2D1C4F867F008F5401 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E07A291C4F867F008F5401 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +49,9 @@
 		19E07A0E1C4F7DA6008F5401 /* Hookah.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hookah.swift; sourceTree = "<group>"; };
 		19E07A0F1C4F7DA6008F5401 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		19E07A101C4F7DA6008F5401 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E07A231C4F8220008F5401 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		19E07A241C4F8659008F5401 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		19E07A291C4F867F008F5401 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +129,11 @@
 			children = (
 				19E07A0D1C4F7DA6008F5401 /* Hookah.h */,
 				19E07A0E1C4F7DA6008F5401 /* Hookah.swift */,
+				19E07A231C4F8220008F5401 /* MyPlayground.playground */,
 				19E07A0F1C4F7DA6008F5401 /* Info-tvOS.plist */,
 				19E07A101C4F7DA6008F5401 /* Info.plist */,
+				19E07A241C4F8659008F5401 /* Array.swift */,
+				19E07A291C4F867F008F5401 /* String.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -343,7 +357,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E07A2A1C4F867F008F5401 /* String.swift in Sources */,
 				19E07A151C4F7DA6008F5401 /* Hookah.swift in Sources */,
+				19E07A251C4F865A008F5401 /* Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +375,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E07A2B1C4F867F008F5401 /* String.swift in Sources */,
 				19E07A161C4F7DA6008F5401 /* Hookah.swift in Sources */,
+				19E07A261C4F865A008F5401 /* Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +385,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E07A2C1C4F867F008F5401 /* String.swift in Sources */,
 				19E07A171C4F7DA6008F5401 /* Hookah.swift in Sources */,
+				19E07A271C4F865A008F5401 /* Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +395,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E07A2D1C4F867F008F5401 /* String.swift in Sources */,
 				19E07A181C4F7DA6008F5401 /* Hookah.swift in Sources */,
+				19E07A281C4F865A008F5401 /* Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
