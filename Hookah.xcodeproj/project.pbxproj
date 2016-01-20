@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19722F851C4A4F90000AF706 /* Hookah.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19722F7A1C4A4F90000AF706 /* Hookah.framework */; };
+		19722F8A1C4A4F90000AF706 /* HookahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19722F891C4A4F90000AF706 /* HookahTests.swift */; };
+		19E07A111C4F7DA6008F5401 /* Hookah.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E07A0D1C4F7DA6008F5401 /* Hookah.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19E07A121C4F7DA6008F5401 /* Hookah.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E07A0D1C4F7DA6008F5401 /* Hookah.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19E07A131C4F7DA6008F5401 /* Hookah.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E07A0D1C4F7DA6008F5401 /* Hookah.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19E07A141C4F7DA6008F5401 /* Hookah.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E07A0D1C4F7DA6008F5401 /* Hookah.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19E07A151C4F7DA6008F5401 /* Hookah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E07A0E1C4F7DA6008F5401 /* Hookah.swift */; };
+		19E07A161C4F7DA6008F5401 /* Hookah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E07A0E1C4F7DA6008F5401 /* Hookah.swift */; };
+		19E07A171C4F7DA6008F5401 /* Hookah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E07A0E1C4F7DA6008F5401 /* Hookah.swift */; };
+		19E07A181C4F7DA6008F5401 /* Hookah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E07A0E1C4F7DA6008F5401 /* Hookah.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19722F861C4A4F90000AF706 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19722F711C4A4F90000AF706 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19722F791C4A4F90000AF706;
+			remoteInfo = Hookah;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19722F7A1C4A4F90000AF706 /* Hookah.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hookah.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19722F841C4A4F90000AF706 /* HookahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HookahTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19722F891C4A4F90000AF706 /* HookahTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HookahTests.swift; sourceTree = "<group>"; };
+		19722F8B1C4A4F90000AF706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E079D01C4F6EDA008F5401 /* Hookah.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hookah.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E079DD1C4F6F12008F5401 /* Hookah.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hookah.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E079ED1C4F70A2008F5401 /* Hookah.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hookah.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E07A0D1C4F7DA6008F5401 /* Hookah.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hookah.h; sourceTree = "<group>"; };
+		19E07A0E1C4F7DA6008F5401 /* Hookah.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hookah.swift; sourceTree = "<group>"; };
+		19E07A0F1C4F7DA6008F5401 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		19E07A101C4F7DA6008F5401 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19722F761C4A4F90000AF706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19722F811C4A4F90000AF706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19722F851C4A4F90000AF706 /* Hookah.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E079CC1C4F6EDA008F5401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E079D91C4F6F12008F5401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E079E91C4F70A2008F5401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19722F701C4A4F90000AF706 = {
+			isa = PBXGroup;
+			children = (
+				19E07A0C1C4F7DA6008F5401 /* Source */,
+				19722F881C4A4F90000AF706 /* HookahTests */,
+				19722F7B1C4A4F90000AF706 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19722F7B1C4A4F90000AF706 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19722F7A1C4A4F90000AF706 /* Hookah.framework */,
+				19722F841C4A4F90000AF706 /* HookahTests.xctest */,
+				19E079D01C4F6EDA008F5401 /* Hookah.framework */,
+				19E079DD1C4F6F12008F5401 /* Hookah.framework */,
+				19E079ED1C4F70A2008F5401 /* Hookah.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19722F881C4A4F90000AF706 /* HookahTests */ = {
+			isa = PBXGroup;
+			children = (
+				19722F891C4A4F90000AF706 /* HookahTests.swift */,
+				19722F8B1C4A4F90000AF706 /* Info.plist */,
+			);
+			path = HookahTests;
+			sourceTree = "<group>";
+		};
+		19E07A0C1C4F7DA6008F5401 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				19E07A0D1C4F7DA6008F5401 /* Hookah.h */,
+				19E07A0E1C4F7DA6008F5401 /* Hookah.swift */,
+				19E07A0F1C4F7DA6008F5401 /* Info-tvOS.plist */,
+				19E07A101C4F7DA6008F5401 /* Info.plist */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		19722F771C4A4F90000AF706 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E07A111C4F7DA6008F5401 /* Hookah.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E079CD1C4F6EDA008F5401 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E07A121C4F7DA6008F5401 /* Hookah.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E079DA1C4F6F12008F5401 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E07A131C4F7DA6008F5401 /* Hookah.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E079EA1C4F70A2008F5401 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E07A141C4F7DA6008F5401 /* Hookah.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19722F791C4A4F90000AF706 /* Hookah iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19722F8E1C4A4F90000AF706 /* Build configuration list for PBXNativeTarget "Hookah iOS" */;
+			buildPhases = (
+				19722F751C4A4F90000AF706 /* Sources */,
+				19722F761C4A4F90000AF706 /* Frameworks */,
+				19722F771C4A4F90000AF706 /* Headers */,
+				19722F781C4A4F90000AF706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hookah iOS";
+			productName = Hookah;
+			productReference = 19722F7A1C4A4F90000AF706 /* Hookah.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		19722F831C4A4F90000AF706 /* HookahTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19722F911C4A4F90000AF706 /* Build configuration list for PBXNativeTarget "HookahTests" */;
+			buildPhases = (
+				19722F801C4A4F90000AF706 /* Sources */,
+				19722F811C4A4F90000AF706 /* Frameworks */,
+				19722F821C4A4F90000AF706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19722F871C4A4F90000AF706 /* PBXTargetDependency */,
+			);
+			name = HookahTests;
+			productName = HookahTests;
+			productReference = 19722F841C4A4F90000AF706 /* HookahTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19E079CF1C4F6EDA008F5401 /* Hookah OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19E079D51C4F6EDA008F5401 /* Build configuration list for PBXNativeTarget "Hookah OSX" */;
+			buildPhases = (
+				19E079CB1C4F6EDA008F5401 /* Sources */,
+				19E079CC1C4F6EDA008F5401 /* Frameworks */,
+				19E079CD1C4F6EDA008F5401 /* Headers */,
+				19E079CE1C4F6EDA008F5401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hookah OSX";
+			productName = "Hookah OSX";
+			productReference = 19E079D01C4F6EDA008F5401 /* Hookah.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		19E079DC1C4F6F12008F5401 /* Hookah WatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19E079E21C4F6F12008F5401 /* Build configuration list for PBXNativeTarget "Hookah WatchOS" */;
+			buildPhases = (
+				19E079D81C4F6F12008F5401 /* Sources */,
+				19E079D91C4F6F12008F5401 /* Frameworks */,
+				19E079DA1C4F6F12008F5401 /* Headers */,
+				19E079DB1C4F6F12008F5401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hookah WatchOS";
+			productName = "Hookah WatchOS";
+			productReference = 19E079DD1C4F6F12008F5401 /* Hookah.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		19E079EC1C4F70A2008F5401 /* Hookah tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19E079F21C4F70A2008F5401 /* Build configuration list for PBXNativeTarget "Hookah tvOS" */;
+			buildPhases = (
+				19E079E81C4F70A2008F5401 /* Sources */,
+				19E079E91C4F70A2008F5401 /* Frameworks */,
+				19E079EA1C4F70A2008F5401 /* Headers */,
+				19E079EB1C4F70A2008F5401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hookah tvOS";
+			productName = "Hookah tvOS";
+			productReference = 19E079ED1C4F70A2008F5401 /* Hookah.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19722F711C4A4F90000AF706 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Khoi Lai";
+				TargetAttributes = {
+					19722F791C4A4F90000AF706 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					19722F831C4A4F90000AF706 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					19E079CF1C4F6EDA008F5401 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					19E079DC1C4F6F12008F5401 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					19E079EC1C4F70A2008F5401 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 19722F741C4A4F90000AF706 /* Build configuration list for PBXProject "Hookah" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 19722F701C4A4F90000AF706;
+			productRefGroup = 19722F7B1C4A4F90000AF706 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19722F791C4A4F90000AF706 /* Hookah iOS */,
+				19E079CF1C4F6EDA008F5401 /* Hookah OSX */,
+				19E079DC1C4F6F12008F5401 /* Hookah WatchOS */,
+				19E079EC1C4F70A2008F5401 /* Hookah tvOS */,
+				19722F831C4A4F90000AF706 /* HookahTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19722F781C4A4F90000AF706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19722F821C4A4F90000AF706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E079CE1C4F6EDA008F5401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E079DB1C4F6F12008F5401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E079EB1C4F70A2008F5401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19722F751C4A4F90000AF706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E07A151C4F7DA6008F5401 /* Hookah.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19722F801C4A4F90000AF706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19722F8A1C4A4F90000AF706 /* HookahTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E079CB1C4F6EDA008F5401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E07A161C4F7DA6008F5401 /* Hookah.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E079D81C4F6F12008F5401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E07A171C4F7DA6008F5401 /* Hookah.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E079E81C4F70A2008F5401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E07A181C4F7DA6008F5401 /* Hookah.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19722F871C4A4F90000AF706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19722F791C4A4F90000AF706 /* Hookah iOS */;
+			targetProxy = 19722F861C4A4F90000AF706 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19722F8C1C4A4F90000AF706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		19722F8D1C4A4F90000AF706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		19722F8F1C4A4F90000AF706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.khoi.Hookah;
+				PRODUCT_MODULE_NAME = Hookah;
+				PRODUCT_NAME = Hookah;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19722F901C4A4F90000AF706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.khoi.Hookah;
+				PRODUCT_MODULE_NAME = Hookah;
+				PRODUCT_NAME = Hookah;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		19722F921C4A4F90000AF706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HookahTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.khoi.HookahTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		19722F931C4A4F90000AF706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HookahTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.khoi.HookahTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		19E079D61C4F6EDA008F5401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.khoi.Hookah;
+				PRODUCT_MODULE_NAME = Hookah;
+				PRODUCT_NAME = Hookah;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		19E079D71C4F6EDA008F5401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = tv.khoi.Hookah;
+				PRODUCT_MODULE_NAME = Hookah;
+				PRODUCT_NAME = Hookah;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		19E079E31C4F6F12008F5401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.khoi.Hookah;
+				PRODUCT_MODULE_NAME = Hookah;
+				PRODUCT_NAME = Hookah;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		19E079E41C4F6F12008F5401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.khoi.Hookah;
+				PRODUCT_MODULE_NAME = Hookah;
+				PRODUCT_NAME = Hookah;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		19E079F31C4F70A2008F5401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.khoi.Hookah;
+				PRODUCT_NAME = Hookah;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		19E079F41C4F70A2008F5401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tv.khoi.Hookah;
+				PRODUCT_NAME = Hookah;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19722F741C4A4F90000AF706 /* Build configuration list for PBXProject "Hookah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19722F8C1C4A4F90000AF706 /* Debug */,
+				19722F8D1C4A4F90000AF706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19722F8E1C4A4F90000AF706 /* Build configuration list for PBXNativeTarget "Hookah iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19722F8F1C4A4F90000AF706 /* Debug */,
+				19722F901C4A4F90000AF706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19722F911C4A4F90000AF706 /* Build configuration list for PBXNativeTarget "HookahTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19722F921C4A4F90000AF706 /* Debug */,
+				19722F931C4A4F90000AF706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19E079D51C4F6EDA008F5401 /* Build configuration list for PBXNativeTarget "Hookah OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E079D61C4F6EDA008F5401 /* Debug */,
+				19E079D71C4F6EDA008F5401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19E079E21C4F6F12008F5401 /* Build configuration list for PBXNativeTarget "Hookah WatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E079E31C4F6F12008F5401 /* Debug */,
+				19E079E41C4F6F12008F5401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19E079F21C4F70A2008F5401 /* Build configuration list for PBXNativeTarget "Hookah tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E079F31C4F70A2008F5401 /* Debug */,
+				19E079F41C4F70A2008F5401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19722F711C4A4F90000AF706 /* Project object */;
+}
