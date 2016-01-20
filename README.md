@@ -495,7 +495,7 @@ Hookah.compact([2,3,4,nil,6,7])
 // -> [2,3,4,6,7]
 ```
 
-### `Hookah.concat` values
+### `Hookah.concat` (values)
 ```swift
 Hookah.concat<T>(array: [T], values: T...) -> [T]
 ```
@@ -517,7 +517,7 @@ Hookah.concat([1,2,3], values: 2, 3, 4)
 // -> [1,2,3,2,3,4]
 ```
 
-### `Hookah.concat` arrays
+### `Hookah.concat` (arrays)
 ```swift
 Hookah.concat<T>(array: [T], arrays: [T]...) -> [T]
 ```
@@ -537,6 +537,52 @@ The new concatenated array.
 ```swift
 Hookah.concat(array, arrays: [1,2],[3,4],[0])
 // -> [1,1,2,3,4,0]
+```
+
+### `Hookah.flattenDeep`
+```swift
+Hookah.flattenDeep<T>(array: [T]) -> [T]
+```
+
+This method is like Hookah.flatten except that it recursively flattens array.
+
+#### Arguments ####
+
+- array: The array to flatten.
+
+#### Return ####
+
+The new flattened array.
+
+#### Example ####
+```swift
+Hookah.flattenDeep([[1],2,[3,[[4]],5],[[6,7],8],[[9]]])
+// -> [1,2,3,4,5,6,7,8,9]
+```
+
+### `Hookah.slice` 
+```swift
+Hookah.slice<T>(array: [T], start: Int, end: Int? = nil) -> [T]
+```
+
+Create an array by slicing the array from start up to, but not including, end.
+
+#### Arguments ####
+
+- array: The array to slice.
+- start: The start position.
+- end:   The end position. `nil` by default.
+
+#### Return ####
+
+The sliced array.
+
+#### Example ####
+```swift
+Hookah.slice([1,2,3,4,5], start: 0, end: 2)
+// -> [1,2]
+Hookah.slice([1,2,3,4,5], start: 3)
+// -> [4, 5]
 ```
 
 # Contributing #
